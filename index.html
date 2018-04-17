@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yoga quiz</title>
+    <link rel="stylesheet" type="text/css"  href="style.css" />
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <!--bootstrap container-->
+    <div class = "container">
+        <div class = "row navbar">
+            <div class = "menu" style="float:right;">
+                <ul class="nav navbar-nav">
+                    <li><a class="loginNav" href="#" style="display:none;">Login</a></li>
+                    <li><a class="signupNav" href="#" style="display:none;">SignUp</a></li>
+                    <li><a class="logoutNav" href="#" style="display:none;">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--ligin form-->
+        <div class = "row login" style="display:none;">
+            <div class = "col-md-6 col-md-offset-3">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input class="username form-control" id="username" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input class="password form-control" id="password" name="password">
+                    </div>
+                    <button class='loginBtn btn btn-info btn-block' type='submit'>Login</button>
+                    <span>Don't have account? <a>SignUp here</a></span>
+                </form>
+            </div>
+        </div>
+
+         <!--signup form-->
+         <div class = "row signup" style="display:none;">
+                <div class = "col-md-6 col-md-offset-3">
+                    <form id="signupForm">
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input class="username form-control" id="username" name="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input class="password form-control" id="password" name="password">
+                        </div>
+                        <button class='signupBtn btn btn-info btn-block' type='submit'>Register</button>
+                        <span>Has a account? <a>Login here</a></span>
+                    </form>
+                </div>
+            </div>
+        <!--logout form-->
+        <div class = "row logout" style="display:none;">
+            <div class = "col-md-6 col-md-offset-3">
+                <form id="logoutForm">
+                    <span style="font-size:15px;margin:0 auto;display:table;">Do you want to logout?</span>
+                    <br><button class='logoutBtn btn btn-info btn-block' type='submit'>Logout</button>
+                </form>
+            </div>
+        </div>
+
+        <div class = "row well-sm">
+            <div class = "col-md-6 col-md-offset-3 cardContain">
+                <div class = "yogocard">
+                    <img />
+                </div>
+            </div>
+        </div>
+
+        <div class = "row well">
+            <div class = "col-md-12">
+                <div class = "quiz">
+                    <p class="question">Welcome to the Yoga quiz !<br>Please <strong>login/register</strong> first</p>
+                    <ul class = "answer list-unstyled">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="reviewBtn btn-group" style="display:none;">
+                        <button  class="historyBtn btn btn-primary">History</button>
+                        <button  class="resetBtn btn btn-primary">Try again!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-warning" style="display:none;">
+            <strong>Warning!</strong> You need to answer at lest 5 question to finish the quiz.
+        </div>
+
+        <div class="alert alert-danger" style="display:none;">
+                <strong>Authentication!</strong> Registration or login first before taking the quiz.
+              </div>
+              
+        <div class = "row well-sm">
+            <div class = "buttonList">
+                <button class="start btn btn-primary">START</button> 
+                <button class="next btn btn-primary" style="display:none;">NEXT</button> 
+                <button class="submit btn btn-success" style="display:none;">SUBMIT</button>
+                <button class="prev btn btn-primary" style="display:none;">PREV</button>   
+            </div>
+        </div>
+        <div class = "row historyList well" style = "display:none;">
+
+        </div>
+        <div class = "row well-sm">
+            <p style="font-size:15px;">For more learning: <a style="font-size:15px;">http://www.yogacards.com/vinyasa_yoga/groin-opener-vinyasa.html</a></p>
+        </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./main.js"></script>
+</html>

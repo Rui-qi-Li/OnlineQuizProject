@@ -1,0 +1,62 @@
+[
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-yoga-cards/learn-vinyasa.jpg",
+        "question":"1. Which is correct name translation of 'Upward Facing Seated Angle Posture' in this picture?",
+        "answer":["Urdhva Ticae Upavistha Konasana","Urdhva Mukha Upavistha Konasana","Parsva Upavistha Yacnnei","Parsva Upavistha Konasana"],
+        "correct":"Urdhva Mukha Upavistha Konasana"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-yoga-cards/vinyasa-yoga-FLOW.jpg",
+        "question":"2. What is translation of this pose - 'Fish pose' ?",
+        "answer":["Matsyasana","Keaceeihn","Giubarelli","Toemnpos"],
+        "correct":"Matsyasana"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-yoga-cards/vinyasa-about.jpg",
+        "question":"3. Which is the correct English name of this pose - 'Urdhva Virabhadrasana'?",
+        "answer":["Upward Warrior","Downward Warrior","Backward Warrior","Forward Warrior"],
+        "correct":"Upward Warrior"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-yoga-cards/flowing-vinyasa.jpg",
+        "question":"4. What is the translation of 'Setu Bandhasanasana'?",
+        "answer":["Warrior Pose","Neck Pose","Back Pose","Bridge Pose"],
+        "correct":"Bridge Pose"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-yoga-cards/about-vinyasa-yoga.jpg",
+        "question":"5. What is the Sanskrit to descript 'Knee to the Head'?",
+        "answer":["Anil Sirsasana","Janu Sirsasana","Minu Sirsasana","Ouli Sirsasana"],
+        "correct":"Janu Sirsasana"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-yoga-cards/warrior-triangle-flow.jpg",
+        "question":"6. Which is the correct translation of 'Virabhadrasana II'",
+        "answer":["Fighter 2","Soldier 2","Warrior 2","Men 2"],
+        "correct":"Warrior 2"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-yoga-cards/chair-vinyasa-yoga.jpg",
+        "question":"7. What is the Sanskrit name of 'Chair Pose'?",
+        "answer":["Utkatasana","Uttanasana","Uttanannai","Ueessasana"],
+        "correct":"Utkatasana"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-flow-yoga/vinyasa-flow-meditation.jpg",
+        "question":"8. Which is the correct translation of the pose'Akarna Dhanurasana Bow'?",
+        "answer":["Bow To The Hair","Bow To The Toe","Bow To The Head","Bow To The Ear"],
+        "correct":"Bow To The Ear"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-flow-yoga/flowyoga-vinyasa.jpg",
+        "question":"9. What is the English translation of 'Bheka Bhujangasana'?",
+        "answer":["Swan Cobra Pose","Frog Cobra Pose","Ant Cobra Pose","Cow Cobra Pose"],
+        "correct":"Frog Cobra Pose"
+    },
+    {
+        "url":"http://www.yogacards.com/vinyasa_yoga/vinyasa-flow-yoga/groin-opener-vinyasa.jpg",
+        "question":"10. How to say the pose 'Upavistha Konasana' in English?",
+        "answer":["Bow Angle ","Seated Twise","Seated Angle","Seated Pose"],
+        "correct":"Seated Angle"
+    }
+]

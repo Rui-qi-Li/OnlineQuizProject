@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Poppins;
+    src: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/project-ii/Resources/Poppins/Poppins-Regular.ttf");
+}
+*{
+    margin:0;
+}
+body, p, .nav, form,li{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color:gray;
+    font-weight: 300;
+    text-align: left;
+}
+form {
+    margin:20px 0;
+    font-size:15px;
+}
+.answer li{
+    font-size:15px;
+    color: darkolivegreen;
+}
+.container{    
+    border:1px solid black; 
+    max-width: 700px;
+}
+.navbar{
+    background-color: seashell;
+}
+.nav a{
+    color:gray;
+    font-weight: 600;
+    transition-duration: 0.3s;
+}
+
+.col-md-6{
+    background-color: seashell;
+    text-align: center;
+}
+.cardContain{
+    background-color:white;
+}
+.buttonList{
+    text-align: center;
+    word-spacing: 20px;
+}
