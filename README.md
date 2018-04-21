@@ -1,4 +1,4 @@
-#Online Quiz application
+# Online Quiz application
 
 This is a single page application using Javascript as the browser side language,using PHP as the server side language and JSON as a means of data storage to show how simple information can be transfered, modified and saved between browser and server. The app also use Ajax methods to update html contents partially. The whole app project is only 25kB.
 
